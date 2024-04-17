@@ -6,3 +6,23 @@
 .carrusel{
     height: 70vh;
 }
+/* Espacio entre div */
+.spacer {
+    margin-top: 50px; 
+}
+.spacer2{
+    margin-top: 20px;
+}
+/* Tamaño Imagen Detalle */
+.product-image {
+    max-width: 100%;
+    height: auto;
+} 
+/* Cambio de Tamaño Fuente */
+.selector{
+    font-size: 30px;
+}
+/* Cambio de Tamaño Fuente */
+.selector2{
+    font-size: 13px;
+}

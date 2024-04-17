@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootswatch Lux -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.3/lux/bootstrap.min.css"
+        integrity="sha512-RI2S7J+KOTIVVh6JxrBRNIxJjIioHORVNow+SSz2OMKsDLG5y/YT6iXEK+R0LlKBo/Uwr1O063yT198V6AZh4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+</head>
+
+<body>
+
+    <div><img class="banner" src="./assets/img/BannerComic.jpg" alt=""></div>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container d-flex justify-content-center">
+            <div class="row ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">INICIO
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="js" class="nav-link" href="./index.html#galeria">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">INGRESAR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                    <a href=""><i class="ms-5 me-4 fa-solid fa-cart-shopping fa-3x"></i></a>
+                </div>
+                <div class="row mt-3">
+                    <form class="d-flex">
+                        <input class="form-control me-sm-2" type="search" placeholder="Buscar">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container spacer mb-5">
+        <h1 class="text-center">Contacto</h1>
+        <div class="row spacer">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="tituloInput" class="form-label">Titulo</label>
+                    <input type="text" class="form-control" id="tituloInput">
+                </div>
+                <div class="mb-3">
+                    <label for="emailInput" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="consultaSelect" class="form-label">Consulta</label>
+                    <select class="form-select" id="consultaSelect">
+                        <option selected disabled>Selecciona una opción</option>
+                        <option value="problema_pedido">Problema con mi pedido</option>
+                        <option value="problema_despacho">Problema con el despacho</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="textArea1" class="form-label">Servicio a realizar</label>
+                    <textarea class="form-control" id="textArea1" rows="3"></textarea>
+                    <button id="enviar" type="submit" class="btn btn-dark mt-3 spacer">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer mt-auto py-3 bg-dark text-white d-flex justify-content-between align-items-center">
+        <div class="ms-5">
+            <span>© 2024 Comic Store. Todos los derechos reservados.</span>
+        </div>
+        <div class="social-icons me-5">
+            <a href="https://www.instagram.com/" target="_blank" class="me-3 text-white">
+                <i class="fab fa-instagram fs-1"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" class="me-3 text-white">
+                <i class="fab fa-facebook-f fs-1"></i>
+            </a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootswatch Script Js and Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/contacto.js"></script>
+</body>
+
+</html>
